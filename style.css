@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-color: black;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#canvas1{
+    border: solid 1px #fff;
+}
+.fire_effect{
+    filter: blur(2px) contrast(1.5);
+}
